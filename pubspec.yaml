@@ -1,0 +1,37 @@
+name: bis_alazhar
+description: BIS Alazhar Mobile Application - A comprehensive Flutter-based platform for students
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Icons
+  cupertino_icons: ^1.0.2
+  
+  # Networking
+  dio: ^5.4.0
+  
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  
+  # Utils
+  url_launcher: ^6.2.3
+  intl: ^0.19.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
